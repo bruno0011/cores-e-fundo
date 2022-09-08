@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background: url('imagem/fundo.jpg') center center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main#container {
+    width: 600px;
+    height: 300px;
+    border: 150px solid rgb(29, 27, 27);
+    box-sizing: border-box;
+}
+
+h1.titulo {
+    font-family: 'Bebas Neue', cursive;
+    color:#f5f3f4;
+    
+}
+    
+p.frase {
+    font-family: 'Cabin', sans-serif;
+    color:#ffffff;
+}
+
+p.autor {
+    font-family: 'Caveat', cursive;
+    color:#ffffff;
+}
